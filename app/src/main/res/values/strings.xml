@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Pop Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_sort_label">Sort By</string>
+    <string name="pref_sort_key">sort_by</string>
+    <string name="default_sort">popularity.desc</string>
+    <string name="default_title">Title</string>
+    <string name="default_rating">%1$s/10</string>
+    <string name="default_release_date">2016</string>
+    <string name="default_synopsis">Movie Overview not available</string>
+    <string name="network_not_available">No network connection available</string>
+    <string name="base_url">"http://api.themoviedb.org/3/discover/movie?"</string>
+    <string name="base_poster_path">"http://image.tmdb.org/t/p/w185//"</string>
+    <string name="query_param">sort_by</string>
+    <string name="api_key">api_key</string>
+    <string name="title_activity_detail">MovieDetail</string>
+    <string name="delimiter">-</string>
+    <string-array name="sort_entries">
+        <item>By Most Popular</item>
+        <item>By Highest-Rated</item>
+    </string-array>
+    <string-array name="sort_values">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+    </string-array>
+    <!-- UPDATE THE API KEY VALUE HERE -->
+    <string name="api_key_value"> </string>
+</resources>
